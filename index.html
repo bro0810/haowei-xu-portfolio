@@ -344,6 +344,50 @@ body{scroll-behavior:smooth;
     font-weight:300;
 }
 .footer{
+.dashboard-preview{
+    padding-top:40px;
+}
+
+.preview-container{
+    margin-top:40px;
+    border-radius:35px;
+    overflow:hidden;
+    border:1px solid #222;
+    background:#0b0b0b;
+    box-shadow:0 0 80px rgba(29,78,216,0.12);
+    transition:0.5s;
+}
+
+.preview-container:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 120px rgba(29,78,216,0.2);
+}
+
+.browser-bar{
+    height:55px;
+    background:#111;
+    border-bottom:1px solid #222;
+    display:flex;
+    align-items:center;
+    padding:0 25px;
+}
+
+.browser-dots{
+    display:flex;
+    gap:10px;
+}
+
+.browser-dots span{
+    width:13px;
+    height:13px;
+    border-radius:50%;
+    background:#444;
+}
+
+.preview-container img{
+    width:100%;
+    display:block;
+}
     padding:140px 10% 60px;
     border-top:1px solid #1a1a1a;
 }
@@ -622,6 +666,27 @@ and conversations hidden inside urban rhythm.
     
 <section class="dashboard-section">
 
+<section class="dashboard-preview">
+
+<div class="section-title">
+DASHBOARD PREVIEW
+</div>
+
+<div class="preview-container">
+
+<div class="browser-bar">
+<div class="browser-dots">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+
+<img src="https://raw.githubusercontent.com/bro0810/haowei-xu-portfolio/ef5df808bc0920af87f8677833ef5c7989f64fdb/images/dashboard-preview.png" alt="dashboard preview">
+
+</div>
+
+</section>
 <div class="dashboard-left">
 
 <div class="section-title">
