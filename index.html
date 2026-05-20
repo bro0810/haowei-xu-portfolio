@@ -152,6 +152,45 @@ body{scroll-behavior:smooth;
     font-size:16px;
 }
 
+.seoul-visual{
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.visual-left h2{
+    font-size:72px;
+    line-height:1.05;
+    margin-bottom:40px;
+    font-weight:600;
+    letter-spacing:-3px;
+    max-width:700px;
+}
+
+.visual-left p{
+    color:#888;
+    font-size:18px;
+    line-height:2;
+    max-width:600px;
+}
+
+.image-box{
+    width:100%;
+    height:700px;
+    border-radius:35px;
+    background:
+    linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),
+    url('https://images.unsplash.com/photo-1538485399081-7c8970f2f4d0?q=80&w=1974&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    border:1px solid #222;
+    transition:0.5s;
+}
+
+.image-box:hover{
+    transform:scale(1.02);
+}
 .hero::after{
     content:"";
     position:absolute;
@@ -246,7 +285,17 @@ body{scroll-behavior:smooth;
 .showcase-grid{
     grid-template-columns:1fr;
 }
+.seoul-visual{
+    grid-template-columns:1fr;
+}
 
+.visual-left h2{
+    font-size:42px;
+}
+
+.image-box{
+    height:450px;
+}
 .about-grid{
     grid-template-columns:1fr;
 }
@@ -418,6 +467,36 @@ Combining editorial design with interactive experiences.
 </section>
 
 
+<section class="seoul-visual">
+
+<div class="visual-left">
+
+<div class="section-title">
+SEOUL OBSERVATION
+</div>
+
+<h2>
+The city reveals itself
+through cafes, movement,
+light, and silence.
+</h2>
+
+<p>
+Seoul is not only a city of technology and speed.
+It is also a collection of emotional spaces —
+quiet cafes in Seongsu, midnight streets in Hongdae,
+and conversations hidden inside urban rhythm.
+</p>
+
+</div>
+
+<div class="visual-right">
+
+<div class="image-box"></div>
+
+</div>
+
+</section>
 <section class="philosophy">
 
 <div class="section-title">
