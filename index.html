@@ -84,6 +84,100 @@ body{
     letter-spacing:2px;
 }
 
+section{
+    padding:140px 10%;
+}
+
+.section-title{
+    color:#666;
+    font-size:13px;
+    letter-spacing:3px;
+    margin-bottom:50px;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+}
+
+.about-left h3{
+    font-size:48px;
+    line-height:1.2;
+    font-weight:600;
+}
+
+.about-right p{
+    color:#999;
+    font-size:18px;
+    line-height:2;
+}
+
+.project-card{
+    border:1px solid #222;
+    padding:60px;
+    border-radius:30px;
+    background:linear-gradient(180deg,#111,#080808);
+    transition:0.4s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    border-color:#333;
+}
+
+.project-category{
+    color:#888;
+    letter-spacing:3px;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+.project-text h3{
+    font-size:50px;
+    line-height:1.2;
+    margin-bottom:30px;
+    max-width:900px;
+}
+
+.project-text p{
+    color:#999;
+    font-size:18px;
+    line-height:2;
+    max-width:700px;
+}
+
+.philosophy{
+    padding-bottom:200px;
+}
+
+.quote{
+    font-size:50px;
+    line-height:1.5;
+    color:#ddd;
+    max-width:1000px;
+    font-weight:300;
+}
+
+@media(max-width:768px){
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.about-left h3{
+    font-size:36px;
+}
+
+.project-text h3{
+    font-size:36px;
+}
+
+.quote{
+    font-size:28px;
+}
+
+}
 @media(max-width:768px){
 
 .hero h1{
@@ -129,5 +223,80 @@ SCROLL TO EXPLORE ↓
 
 </section>
 
+<section class="about">
+
+<div class="section-title">
+ABOUT
+</div>
+
+<div class="about-grid">
+
+<div class="about-left">
+<h3>
+Observing Seoul Through Design & Data
+</h3>
+</div>
+
+<div class="about-right">
+<p>
+I am a Chinese student currently studying in Seoul,
+interested in urban culture, visual storytelling,
+and digital experiences.
+
+This project explores how data and aesthetics
+can be combined to reinterpret everyday life in Seoul.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="featured">
+
+<div class="section-title">
+FEATURED PROJECT
+</div>
+
+<div class="project-card">
+
+<div class="project-text">
+
+<div class="project-category">
+SEOUL CAFE GEOGRAPHY
+</div>
+
+<h3>
+Exploring Youth Culture Through Seoul’s Cafe Districts
+</h3>
+
+<p>
+An interactive visual project analyzing Seoul’s cafe culture,
+district trends, urban aesthetics, and youth lifestyle patterns
+through data visualization and digital storytelling.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="philosophy">
+
+<div class="section-title">
+PHILOSOPHY
+</div>
+
+<div class="quote">
+“Data is not only numbers.
+It is also emotion, memory, movement, and culture.”
+</div>
+
+</section>
 </body>
 </html>
