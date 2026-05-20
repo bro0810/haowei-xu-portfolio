@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HAOWEI XU</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050505;
+    color:white;
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:10%;
+    position:relative;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:radial-gradient(circle,#1d4ed8 0%, transparent 70%);
+    top:-100px;
+    right:-100px;
+    opacity:0.3;
+    filter:blur(80px);
+}
+
+.small-text{
+    color:#888;
+    font-size:14px;
+    letter-spacing:4px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:120px;
+    line-height:0.9;
+    font-weight:700;
+    letter-spacing:-5px;
+}
+
+.hero h2{
+    font-size:28px;
+    font-weight:300;
+    color:#aaa;
+    margin-top:30px;
+    max-width:600px;
+    line-height:1.5;
+}
+
+.info{
+    margin-top:40px;
+    color:#777;
+    font-size:15px;
+    line-height:2;
+}
+
+.scroll{
+    position:absolute;
+    bottom:40px;
+    left:10%;
+    color:#666;
+    font-size:14px;
+    letter-spacing:2px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:70px;
+}
+
+.hero h2{
+    font-size:20px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="small-text">
+SEOUL / DATA / VISUAL CULTURE
+</div>
+
+<h1>
+HAOWEI<br>
+XU
+</h1>
+
+<h2>
+A Chinese student in Seoul exploring urban culture,
+digital aesthetics, and data storytelling.
+</h2>
+
+<div class="info">
+徐浩为 / 서호위<br>
+Sungkyunkwan University<br>
+Arts & Big Data
+</div>
+
+<div class="scroll">
+SCROLL TO EXPLORE ↓
+</div>
+
+</section>
+
+</body>
+</html>
